@@ -11,11 +11,11 @@ const About = () => {
     <div className="card-container">
       {cards.results.map((card) => {
         return (
-          <Card style={{ width: "18rem" }} >
+          <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={card.image} />
             <Card.Body>
-              <Card.Title>{card.title}</Card.Title>
-              <Card.Text>{card.description}</Card.Text>
+              <Card.Title style={{ color: "#2127" }}>{card.title}</Card.Title>
+              <Card.Text style={{ color: "#2127", fontSize: "13px" }}>{card.description}</Card.Text>
               <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>

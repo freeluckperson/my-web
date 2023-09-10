@@ -1,13 +1,12 @@
 import React from "react";
-import './Home.css'
+import "./Home.css";
 
 const Home = () => {
   return (
     <div className="jumbotron">
-      <h1 className="display-4">Hello, world!</h1>
+      <h1 className="display-4">Hi, I'm <span style={{color:'#8bc34a'}}>Erick </span>Segura.</h1>
       <p className="lead">
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
+        +58 (412) 103 6964 · <span style={{color:'#8bc34a'}}>gestionecesaria@gmail.com </span> · Maturin, Monagas, Vzla
       </p>
       <hr className="my-4" />
       <p>
