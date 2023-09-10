@@ -1,17 +1,23 @@
 import "./App.css";
-import Header from "./components/Header";
-
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./components/Home";
-import About from "./components/About";
+// import About from "./components/About";
+// import Header from "./components/Header";
+// import Home from "./components/Home";
+import { About, Header, Home, Studies } from "./components/Index.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Home />
-      <About />
-    </>
+    <BrowserRouter>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/studies" element={<Studies />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

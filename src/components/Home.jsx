@@ -4,15 +4,15 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="jumbotron">
-      <h1 className="display-4">Hi, I'm <span style={{color:'#8bc34a'}}>Erick </span>Segura.</h1>
+      <h1 className="display-4">
+        Hi, I'm <span style={{ color: "#8bc34a" }}>Erick </span>Segura.
+      </h1>
       <p className="lead">
-        +58 (412) 103 6964 · <span style={{color:'#8bc34a'}}>gestionecesaria@gmail.com </span> · Maturin, Monagas, Vzla
+        +58 (412) 103 6964 ·{" "}
+        <span style={{ color: "#8bc34a" }}>gestionecesaria@gmail.com </span> ·
+        Maturin, Monagas, Vzla
       </p>
-      <hr className="my-4" />
-      <p>
-        It uses utility classes for typography and spacing to space content out
-        within the larger container.
-      </p>
+
       <a className="btn btn-primary btn-lg" href="#" role="button">
         Learn more
       </a>

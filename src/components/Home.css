@@ -1,4 +1,7 @@
 .jumbotron {
+  display: grid;
+  place-items: center;
   margin: 20px;
-  border: 3px solid rgb(214, 213, 213);
+  height: 80vh;
+  background: transparent;
 }

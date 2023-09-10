@@ -1,9 +1,20 @@
-.bg-body-tertiary {
+.custom-navbar {
   margin: 20px;
   border-radius: 0.7vh;
-  border: 3px solid rgb(214, 213, 213);
+  /* border: 3px solid rgb(214, 213, 213); */
 }
 
-/* .headerContainer{
-  
-} */
+.custom-nav {
+  display: flex;
+}
+
+.custom-nav a {
+  color: #8bc34a;
+  text-decoration: none;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.custom-nav a:last-child {
+  border-right: none;
+}

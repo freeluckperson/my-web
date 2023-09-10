@@ -5,7 +5,7 @@ import "./About.css";
 import cards from "./cardJson.json";
 
 const About = () => {
-  console.log(cards);
+  
 
   return (
     <div className="card-container">
