@@ -27,7 +27,6 @@
 
 // export default Portfolio;
 
-
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
@@ -46,7 +45,7 @@ const Portfolio = () => {
               <Card.Text style={{ color: "#2127", fontSize: "13px" }}>
                 {card.description}
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
+              <Button variant="primary" href={card.url}>to repository</Button>
             </Card.Body>
           </Card>
         );
