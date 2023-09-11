@@ -1,11 +1,30 @@
-import React from 'react'
+import React from "react";
+import './Studies.css'
 
 const Studies = () => {
   return (
-    <div>
-      <h3>Soy Studies</h3>
-    </div>
-  )
-}
+    <div className="jumbotronContainer">
+      <div className="container">
+        <hr />
+        <h1 className="display-4">Henry bootcamp</h1>
+        <p className="lead">
+          <p>Title obtained: Full stack web developer</p>
+          <p>Graduation year: Completing final project</p>
+        </p>
+        <hr />
+      </div>
 
-export default Studies
+      <div className="container">
+        <hr />
+        <h1 className="display-4">Universidad de Oriente</h1>
+        <p className="lead">
+          <p>Title obtained: Agronomist Engineer</p>
+          <p>Graduation year: 01/01/2014</p>
+        </p>
+        <hr />
+      </div>
+    </div>
+  );
+};
+
+export default Studies;

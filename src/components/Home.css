@@ -4,5 +4,15 @@
   margin: 20px;
   height: 60vh;
   background: transparent;
-  /* border: 3px solid gray; */
+  animation-name: slideIn;
+  animation-duration: 1.6s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(20%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }

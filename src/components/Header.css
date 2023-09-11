@@ -8,13 +8,18 @@
   display: flex;
 }
 
-.custom-nav a {
-  color: #8bc34a;
-  text-decoration: none;
-  padding-right: 10px;
-  margin-right: 10px;
-}
-
 .custom-nav a:last-child {
   border-right: none;
+}
+
+.custom-nav a {
+  color: #8bc34a;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.custom-nav a:hover,
+.custom-nav a:focus {
+  color: #beee87;
 }

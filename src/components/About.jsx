@@ -3,27 +3,14 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="jumbotronContainer">
-      <div className="container">
-        <hr />
-        <h1 className="display-4">Henry bootcamp</h1>
-        <p className="lead">
-          <p>Title obtained: Full stack web developer</p>
-          <p>Graduation year: Completing final project</p>
-        </p>
-        <hr />
-      </div>
-
-      <div className="container">
-        <hr />
-        <h1 className="display-4">Universidad de Oriente</h1>
-        <p className="lead">
-          <p>Title obtained: Agronomist Engineer</p>
-          <p>Graduation year: 01/01/2014</p>
-        </p>
-        <hr />
-      </div>
-    </div>
+    <p className="lead">
+      Hi there! I'm an agricultural engineer who has recently discovered my
+      passion for web programming. Although my background and work experience
+      are in agriculture, I have been training and practicing web development on
+      both the front-end and back-end. I am excited to continue learning and
+      developing my skills in web programming, and I hope to apply my knowledge
+      to projects that have an attractive design and easy-to-use.
+    </p>
   );
 };
 
