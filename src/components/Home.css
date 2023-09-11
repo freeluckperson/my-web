@@ -2,6 +2,7 @@
   display: grid;
   place-items: center;
   margin: 20px;
-  height: 80vh;
+  height: 60vh;
   background: transparent;
+  /* border: 3px solid gray; */
 }

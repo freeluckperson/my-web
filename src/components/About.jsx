@@ -1,26 +1,28 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import "./About.css";
-import cards from "./cardJson.json";
 
 const About = () => {
-  
-
   return (
-    <div className="card-container">
-      {cards.results.map((card) => {
-        return (
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={card.image} />
-            <Card.Body>
-              <Card.Title style={{ color: "#2127" }}>{card.title}</Card.Title>
-              <Card.Text style={{ color: "#2127", fontSize: "13px" }}>{card.description}</Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        );
-      })}
+    <div className="jumbotronContainer">
+      <div className="container">
+        <hr />
+        <h1 className="display-4">Henry bootcamp</h1>
+        <p className="lead">
+          <p>Title obtained: Full stack web developer</p>
+          <p>Graduation year: Completing final project</p>
+        </p>
+        <hr />
+      </div>
+
+      <div className="container">
+        <hr />
+        <h1 className="display-4">Universidad de Oriente</h1>
+        <p className="lead">
+          <p>Title obtained: Agronomist Engineer</p>
+          <p>Graduation year: 01/01/2014</p>
+        </p>
+        <hr />
+      </div>
     </div>
   );
 };
