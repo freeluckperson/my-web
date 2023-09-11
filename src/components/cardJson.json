@@ -15,11 +15,12 @@
       "url": "https://github.com/freeluckperson/Proyectos-backend-frontent-fullstack"
     },
     {
-      "id": 2,
-      "title": "Todo List",
-      "description": "Crud made with redux toolkit, tailwindCss and react hook form",
-      "image": "https://i.imgur.com/GMHpIZX.jpg",
-      "url": "https://github.com/freeluckperson/Proyectos-backend-frontent-fullstack"
+      "id": 3,
+      "title": "E-Comerce",
+      "description": "Collaborator on fullstack project with NextJs 13, MongoDB, Cloudinary, Clerk, Redux Tlk",
+      "image": "https://i.imgur.com/IgzF6TO.jpg",
+      "url": "https://github.com/freeluckperson/final-project-client",
+      "deploy": "https://final-project-client-lime.vercel.app/"
     }
   ]
 }
