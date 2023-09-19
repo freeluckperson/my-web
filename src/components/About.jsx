@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   return (
@@ -23,6 +24,9 @@ const About = () => {
           size="4x"
           style={{ marginLeft: "20px" }}
         />
+      </a>
+      <a href="#">
+        <FontAwesomeIcon icon={faFilePdf} size="4x" style={{ marginLeft: "20px" }}/>
       </a>
     </>
   );
