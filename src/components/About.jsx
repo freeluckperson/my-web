@@ -25,8 +25,12 @@ const About = () => {
           style={{ marginLeft: "20px" }}
         />
       </a>
-      <a href="#">
-        <FontAwesomeIcon icon={faFilePdf} size="4x" style={{ marginLeft: "20px" }}/>
+      <a href="https://www.mediafire.com/file/3ktmkrrsgkejef6/cv-resume.pdf/file">
+        <FontAwesomeIcon
+          icon={faFilePdf}
+          size="4x"
+          style={{ marginLeft: "20px" }}
+        />
       </a>
     </>
   );

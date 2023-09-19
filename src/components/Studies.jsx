@@ -1,5 +1,5 @@
 import React from "react";
-import './Studies.css'
+import "./Studies.css";
 
 const Studies = () => {
   return (
@@ -7,20 +7,14 @@ const Studies = () => {
       <div className="container">
         <hr />
         <h1 className="display-4">Henry bootcamp</h1>
-        <p className="lead">
-          <p>Title obtained: Full stack web developer</p>
-          <p>Graduation year: Completing final project</p>
-        </p>
+        <p>Title obtained: Fullstack web developer | Graduation year: 19/9/2023</p>
         <hr />
       </div>
 
       <div className="container">
         <hr />
         <h1 className="display-4">Universidad de Oriente</h1>
-        <p className="lead">
-          <p>Title obtained: Agronomist Engineer</p>
-          <p>Graduation year: 01/01/2014</p>
-        </p>
+        <p>Title obtained: Agronomist Engineer | Graduation year: 01/01/2014</p>
         <hr />
       </div>
     </div>
