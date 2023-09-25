@@ -1,7 +1,6 @@
 .jumbotron {
   display: grid;
   place-items: center;
-  margin: 20px;
   height: 60vh;
   background: transparent;
   animation-name: slideIn;
